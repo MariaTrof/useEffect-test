@@ -1,0 +1,51 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  color: beige;
+  font-size: 54px;
+  display: flex;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.box-container {
+  width: 50%;
+  height: 68vh;
+  background-color: rgb(32, 31, 33);
+  border-radius: 10px;
+  border: 0.5px solid white;
+  box-shadow: 15px 10px 150px 15px black;
+}
+
+
+.box-container:hover {
+  border: 0.5px solid rgb(0, 149, 255);
+ 
+}
+.text {
+  background-color: inherit;
+  font-size: 16px;
+  color: beige;
+  padding: 5px 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.line {
+ position: absolute;
+  width: 10px; 
+  height: 10px; 
+  border-radius: 10px;
+  background-color: rgb(0, 149, 255);
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0; 
+}
+.line:hover{
+  opacity: 1;
+}
